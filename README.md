@@ -12,7 +12,8 @@ Full python -
 
 ## 2. Chat rendering : 
 Rendering extracted chats to dynamic HTML like an instant message app
-(docs/chat_rendering.gif)
+![Rendering illustration](docs/chat_rendering.gif) 
+
 Rely on a formatted Dataframe: 
 
 input : df with following columns:
