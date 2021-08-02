@@ -44,7 +44,7 @@ and generates a gallery to browse images and videos.
 - Pandas
 - Pillow
 
-##5. iOS ProtonMail
+## 5. iOS ProtonMail
 Notebook to decrypt, parse and render ProtonMail messages in iOS. Valid for last version of ProtonMail (> 1.12)
 
 ### Dependencies
