@@ -2,7 +2,7 @@
 Sharing some notebooks I use for forensic research or examinations.
 Use as you want, credit and thanks are is always welcome :)
 
-## 1. SQLCipher decrypt - signal iOS DB 12.4.1
+## 1. SQLCipher decrypt
 Notebook to decrypt database encrypted with SQLCipher.
 Full python - 
 
@@ -31,6 +31,25 @@ Example can be found in the Signal parsing notebook
 ### Dependencies:
 - Pandas
 
-## 3. Signal parsing
-Notebook to parse Signal database decrypted with Notebook #1
+## 3. iOS Signal
+Notebook to decrypt and parse Signal database 
 Renders chat as HTML using Chat rendering #2
+
+## 4. iOS Media Extraction
+This notebook extracts media from an iOS filesystem dump (tar or zip)
+and generates a gallery to browse images and videos.
+
+### Dependencies:
+- ffmpeg
+- Pandas
+- Pillow
+
+##5. iOS ProtonMail
+Notebook to decrypt, parse and render ProtonMail messages in iOS. Valid for last version of ProtonMail (> 1.12)
+
+### Dependencies
+- ccl_bplist
+- pycrypto
+- plistlib
+- pandas
+- pgpy
